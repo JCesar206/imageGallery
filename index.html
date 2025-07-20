@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Imagenes</title>
+  <link rel="stylesheet" href="./styles/gallery.css">
+  <link rel="icon" type="images/x-icon" href="./images/gallery.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Galería de Imagenes</h1>
+  </header>
+    <main class="galery-container">
+      <div class="gallery">
+      	<img src="./images/image1.jpg" alt="Paisaje 1" />
+        <img src="./images/image2.jpg" alt="Paisaje 2" />
+        <img src="./images/image3.jpg" alt="Paisaje 3" />
+        <img src="./images/image4.jpg" alt="Paisaje 4" />
+        <img src="./images/image5.jpg" alt="Paisaje 5" />
+        <img src="./images/image6.jpg" alt="Paisaje 6" />
+       </div>
+    </main>
+    <div id="modal" class="modal hidden">
+        <span id="closeBtn">&times;</span>
+        <span id="prevBtn" class="navBtn">&#10094;</span>
+        <img id="modalImg" />
+        <span id="nextBtn" class="navBtn">&#10095;</span>
+    </div>
+  <footer>
+    <p>&copy; 2025. Hecho con ❤️ por mi. JulyDevops. Todos los derechos reservados.</p>
+      <div class="icons">
+        <a href="https://github.com/JCesar206" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jcesar206" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jcesar206@hotmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+  </footer>
+<script src="./scripts/gallery.js"></script>
+</body>
+</html>
